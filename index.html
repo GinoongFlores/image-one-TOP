@@ -13,84 +13,140 @@
 
     <div class="main">
 
-        <section class="f-page">
+        <section class="f-page " id="main">
             <header class="d-flex header">
                 <div class="header-logo">
                     <div class="header-text">
                         <a href="#">
-                            Header logo
+                            <img src="/img/cliftonGuitarsLogo.png" alt="" height="100">
                         </a>
                     </div>
                 </div>
 
-                <div class="nav-lists">
+                <nav class="nav-lists">
                     <ul class="d-flex">
-                        <li><a href="#">link header one</a></li>
-                        <li><a href="#">link header two</a></li>
-                        <li><a href="#">link header three</a></li>
+                        <li><a href="#main">Home</a></li>
+                        <li><a href="#guitars">Guitars</a></li>
+                        <li><a href="#testimonials">Testimonial</a></li>
+                        <li><a href="#contacts">Contact</a></li>
                     </ul>
-                </div>
+                </nav>
             </header>
 
-            <div class="hero">
+            <div class="hero d-flex centerXY">
                 <div class="web-info">
-                    <div class="web-title">This is website is awesome</div>
-                    <p class="lead">This website has some subtext that goes here under the main title. It's a smaller
-                        font and the
-                        color is lower contrast</p>
+                    <div class="web-title">Welcome to Clifton Guitars</div>
+                    <p class="lead">No Unnecessary Frills, Just Pure Tone!</p>
 
                     <button class="blue">
                         <a href="#" target="_blank">
 
-                            Sign up
+                            Buy Now!
                         </a>
-
                     </button>
                 </div>
 
                 <div class="web-img">
-                    <img src="/img/acoustic-guitar.jpg" alt="acoustic-guitar" width="600" height="330">
+                    <img src="/img/cliftonA2series.jpg" alt="acoustic-guitar" height="300">
+                    <figcaption>
+                        Clifton A2 Series
+                    </figcaption>
                 </div>
             </div>
         </section>
 
-        <section class="information">
-            <h2 class="text-center">Some random information</h2>
-            <div class="container-box d-flex">
+        <section class="information" id="guitars">
+
+
+            <h1 class="text-center">Pick different varieties of Clifton Guitars</h1>
+
+            <div class="container-box d-flex d-flex-r">
 
                 <div class="box-d">
-                    <div class="box"></div>
-                    <p>this is some subtext under an
-                        illustration or image</p>
+                    <div class="guitarContent d-flex">
+                        <img src="/img/guitar-1.jpg" alt="">
+                        <p>Clifton Raven Natural</p>
+                    </div>
                 </div>
 
                 <div class="box-d">
-                    <div class="box"></div>
-                    <p>this is some subtext under an illustration or image</p>
+                    <div class="guitarContent d-flex">
+                        <img src="/img/guitar-2.jpg" alt="">
+                        <p>Clifton Raven Brown</p>
+                    </div>
                 </div>
 
                 <div class="box-d">
-                    <div class="box"></div>
-                    <p>this is some subtext under an illustration or image</p>
+                    <div class="guitarContent d-flex">
+                        <img src="/img/guitar-3.jpg" alt="">
+                        <p>Clifton Raven Black</p>
+                    </div>
                 </div>
 
                 <div class="box-d">
-                    <div class="box"></div>
-                    <p>this is some subtext under an illustration or image</p>
+                    <div class="guitarContent d-flex">
+                        <img src="/img/guitar-4.jpg" alt="">
+                        <p>Clifton A2 Solid Top</p>
+                    </div>
                 </div>
 
             </div>
         </section>
 
-        <!-- <section class="quote">
-            <div class="container-qoute">
-                <h3>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h3>
-                <h5>- Thor, God of Thunder</h5>
+        <section class="quote d-flex" id="testimonials">
+            <div class="container-quote">
+                <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just
+                    filling up
+                    space, or
+                    maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <h4>- Thor, God of Thunder</h3>
             </div>
-        </section> -->
 
+            <div class="container-quote">
+                <p>The Clifton A2 series is my dream guitar, and now I have it in my hands. Hard work pay's off!</p>
+                <h4>- Christian Paul Flores</h3>
+            </div>
 
-    </div>
+            <div class="container-quote">
+                <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just
+                    filling up
+                    space, or
+                    maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <h4>- Thor, God of Thunder</h3>
+            </div>
+        </section>
+
+        <section class="callToAction" id="contacts">
+            <div class="container">
+                <div class="container-box d-flex">
+                    <div class="content">
+                        <h2>Request 3 guitars</h2>
+                        <p>Sign up to test 3 guitars and pick 1 that you like!</p>
+                    </div>
+
+                    <div class="clickButton">
+                        <button>
+                            <a href="#">
+                                Sign up
+                            </a>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div> <!-- main end -->
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container-footer d-flex">
+            <div class="footer-text">
+                Copyright &copy; The Odin Project 2022
+            </div>
+        </div>
+    </footer>
 
 </body>
 
