@@ -201,14 +201,16 @@ button.blue a {
 .callToAction {
 	margin: 80px 60px;
 	color: white;
+	display: flex;
+	justify-content: center;
 }
 
 .callToAction .container {
 	background: royalblue;
-
 	padding: 30px 10px;
-	margin: 0 auto;
 	border-radius: 8px;
+
+	width: 1000px;
 }
 
 .callToAction .clickButton button {
@@ -221,13 +223,10 @@ button.blue a {
 	font-weight: bold;
 }
 
-.callToAction .container {
-	max-width: 1000px;
-}
-
 .callToAction .container-box {
 	justify-content: space-around;
 	align-items: center;
+	align-content: center;
 	flex-wrap: wrap;
 }
 
