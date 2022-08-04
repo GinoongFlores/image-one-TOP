@@ -323,6 +323,10 @@ footer .container-footer {
 }
 
 @media (max-width: 575.98px) {
+	.main {
+		overflow-x: hidden;
+	}
+
 	.nav-lists ul li {
 		padding: 0.5rem;
 		font-size: 1rem;
@@ -341,7 +345,12 @@ footer .container-footer {
 	.web-info::before {
 		display: block;
 		content: "";
-		height: 50px;
+		height: 20px;
+	}
+
+	.hero .web-img,
+	.information .container-box {
+		margin: 0 1rem;
 	}
 
 	.quote {
